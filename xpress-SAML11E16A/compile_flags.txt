@@ -1,8 +1,0 @@
--Wno-main-return-type
--I/opt/microchip/xc32/v4.21/pic32c/include/CMSIS/Core/Include
--I/opt/microchip/xc32/v4.21/pic32c/include/CMSIS/Core_A/Include
--I/opt/microchip/xc32/v4.21/pic32c/include_mcc
--I/opt/microchip/xc32/v4.21/lib/gcc/pic32c/8.3.1/include
--I/opt/microchip/xc32/v4.21/lib/gcc/pic32c/8.3.1/include-fixed
--I/opt/microchip/xc32/v4.21/pic32c/include
--D__ATSAML11E16A__

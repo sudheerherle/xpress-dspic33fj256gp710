@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-const char mystring[28096]  = "This is my string ";
+const char mystring[31896]  = "This is my string ";
 /*
  * 
  */

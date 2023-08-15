@@ -20,17 +20,17 @@ PATH:=/Users/i14746/codebase/mplab-nbplatform/nbbuild/netbeans/platform/../mplab
 # Path to java used to run MPLAB X when this makefile was created
 MP_JAVA_PATH="/Users/i14746/java/zulu8.64.0.19-ca-fx-jdk8.0.345-macosx_aarch64/zulu-8.jdk/Contents/Home/jre/bin/"
 OS_CURRENT="$(shell uname -s)"
-MP_CC="/Applications/microchip/xc8/v2.41/bin/xc8-cc"
+MP_CC="/Applications/microchip/xc16/v2.10/bin/xc16-gcc"
 # MP_CPPC is not defined
 # MP_BC is not defined
-MP_AS="/Applications/microchip/xc8/v2.41/bin/xc8-cc"
-MP_LD="/Applications/microchip/xc8/v2.41/bin/xc8-cc"
-MP_AR="/Applications/microchip/xc8/v2.41/bin/xc8-ar"
+MP_AS="/Applications/microchip/xc16/v2.10/bin/xc16-as"
+MP_LD="/Applications/microchip/xc16/v2.10/bin/xc16-ld"
+MP_AR="/Applications/microchip/xc16/v2.10/bin/xc16-ar"
 DEP_GEN=${MP_JAVA_PATH}java -jar "/Users/i14746/codebase/mplab-nbplatform/nbbuild/netbeans/platform/../mplab_ide/modules/../../bin/extractobjectdependencies.jar"
-MP_CC_DIR="/Applications/microchip/xc8/v2.41/bin"
+MP_CC_DIR="/Applications/microchip/xc16/v2.10/bin"
 # MP_CPPC_DIR is not defined
 # MP_BC_DIR is not defined
-MP_AS_DIR="/Applications/microchip/xc8/v2.41/bin"
-MP_LD_DIR="/Applications/microchip/xc8/v2.41/bin"
-MP_AR_DIR="/Applications/microchip/xc8/v2.41/bin"
-DFP_DIR=/Applications/microchip/mplabx/v6.15.rc2.30/packs/Microchip/PIC12-16F1xxx_DFP/1.6.241
+MP_AS_DIR="/Applications/microchip/xc16/v2.10/bin"
+MP_LD_DIR="/Applications/microchip/xc16/v2.10/bin"
+MP_AR_DIR="/Applications/microchip/xc16/v2.10/bin"
+DFP_DIR=/Applications/microchip/mplabx/v6.15.rc2.30/packs/Microchip/dsPIC33F-GP-MC_DFP/1.3.64

@@ -7,14 +7,12 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-const char mystring[13096]  = "This is my string ";
+const char mystring[28096]  = "This is my string ";
 /*
  * 
  */
 
 int add(int a,int b);
-
-#pragma config LVP = ON         // Low-Voltage Programming Enable (Low-voltage programming enabled)
 
 int main(int argc, char** argv) {
     int d = 12;
